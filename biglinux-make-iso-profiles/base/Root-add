@@ -98,20 +98,18 @@ xf86-video-intel
 xf86-video-nouveau
 nvtop
 switcheroo-control
+xf86-input-synaptics
+
+## Perdidos
+compsize
+uriparser
+thermald
 
 ## Virtual Machines
 open-vm-tools
 qemu-guest-agent
-libdnet
 gdk-pixbuf-xlib
-uriparser
-libmspack
 xf86-input-vmmouse
-compsize
-xf86-input-synaptics
-mtools
-fatresize
-thermald
 ## Imported from live
 # BigLinux
   spice-vdagent-autostart-kde
@@ -137,6 +135,7 @@ usb_modeswitch
 ufw
 gufw
 manjaro-settings-samba
+libdnet
 
 ## Connect
 android-tools
@@ -273,9 +272,6 @@ sane-airscan
 ## Optional dependencies for hplip
 # BigLinux
   system-config-printer-jobs
->extra python-pillow
->extra python-pip
->extra python-pyqt5
 ## Optional dependencies for print-manager
 python-pysmbc          # SMB browser support
 system-config-printer
@@ -316,6 +312,7 @@ appimagelauncher
 gnome-keyring
 appmenu-gtk-module
 xdg-utils
+libmspack
 
 #udev
 usbasp-udev
@@ -344,9 +341,14 @@ stadia-controller-udev
 usbtinyisp-udev
 usb-dirty-pages-udev
 game-devices-udev
+mtools
+fatresize
 
 #AUR
 make
 automake
 autoconf
 libtool
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
