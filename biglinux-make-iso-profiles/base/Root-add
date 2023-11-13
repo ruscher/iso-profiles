@@ -66,7 +66,7 @@ x86_energy_perf_policy
     biglinux-improve-compatibility
     big-mount-git
     biglinux-systemd-swap
-    disable-fsync  # REMOVER?
+    #disable-fsync  # REMOVER?
     dbus-broker-enable
     biglinux-neofetch
     power-profiles-daemon-biglinux
