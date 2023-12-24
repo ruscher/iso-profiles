@@ -42,6 +42,7 @@ ocl-icd
 lib32-ocl-icd
 irqbalance
 x86_energy_perf_policy
+update-grub
 
 # BigLinux Packages
   # visual
