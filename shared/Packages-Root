@@ -239,6 +239,7 @@ wireplumber
 breeze-icons
 helvum
 chmlib
+tesseract-data-spa
 
 ## Fonts
 ttf-dejavu
@@ -359,8 +360,7 @@ powertop
   biglinux-bash-config
   biglinux-zsh-config
   bigocrpdf
-  tesseract-data-por
-#     tesseract-data-spa
+#     tesseract-data-por
 #     tesseract-data-eng
   tts-biglinux
 #     rhvoice-voice-leticia-f123
