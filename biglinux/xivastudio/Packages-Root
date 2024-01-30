@@ -78,6 +78,7 @@ gzip
 iproute2
 iputils
 pacman
+pacman-contrib
 pciutils
 procps-ng
 psmisc
