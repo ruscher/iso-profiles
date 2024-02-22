@@ -1,11 +1,13 @@
-##
-## Static mirrors from CDN
+## Static mirrors from CDNs
 
-## General CDN from manjaro
+## CDN from CDN77
+Server = https://mirrors2.manjaro.org/stable/$repo/$arch
+
+## CDN from cloudflare
+Server = https://mirrors.cicku.me/manjaro/stable/$repo/$arch
+
+## CDN from CDN77 too
 Server = http://mirrors.manjaro.org/repo/stable/$repo/$arch
 
-## CDN from cloudflare redirecting
-Server = http://manjaro.biglinux.com.br/manjaro/stable/$repo/$arch
+Include=/etc/pacman.d/mirrorlist
 
-## CDN from cloudflare redirecting
-Server = http://manjaro2.biglinux.com.br/manjaro/stable/$repo/$arch
