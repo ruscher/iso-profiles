@@ -305,7 +305,7 @@ powertop
   tts-biglinux
     rhvoice-voice-leticia-f123
     rhvoice-brazilian-portuguese-complementary-dict-biglinux
-#     rhvoice-voice-evgeniy-eng
+    rhvoice-voice-evgeniy-eng
 perl-file-mimeinfo
 zensu
 libappindicator-gtk3
