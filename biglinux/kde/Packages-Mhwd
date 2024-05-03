@@ -10,8 +10,8 @@ KERNEL-broadcom-wl
 #KERNEL-rt3562sta
 #KERNEL-virtualbox-guest-modules
 libva-intel-driver
-libva-vdpau-driver
->multilib lib32-libva-vdpau-driver
+#libva-vdpau-driver
+#>multilib lib32-libva-vdpau-driver
 libxaw
 libxpm
 libxvmc
