@@ -108,8 +108,6 @@ gwenview
 gparted
 spectacle
 vlc
-plasma5-applets-window-buttons
-kvantum
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
