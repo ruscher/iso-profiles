@@ -48,7 +48,6 @@ libreoffice-fresh-pt-br
 keditbookmarks
 plasma-appsmenu-biglinux
 big-executable
-mx-idevice-mounter
 
 ## Network
 plasma-firewall
@@ -79,14 +78,13 @@ plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 qt6-virtualkeyboard  # Virtual keyboard support for kwin-wayland
-kwrited
+# # # kwrited
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
 systemsettings
 plasma-vault
-cryfs
 # # # kwin-scripts-virtual-desktops-only-on-primary
 guvcview
 kmines
@@ -98,7 +96,6 @@ plasma6-applets-panel-colorizer
 plasma6-applets-netspeed
 plasma6-applets-resources-monitor
 plasma6-applets-window-title
-kde-snap-assist
 plymouth-kcm
 
 ## KDE Applications
