@@ -27,21 +27,16 @@ make
 pacutils
 aspell-pt
 pulseaudio-alsa  # REMOVER ?
-python-cssselect
-python-qtpy
-xapian-core
 bash-completion
-manjaro-tools-base
 hunspell-en_us
 qt5-translations
-vkd3d
-lib32-vkd3d
 ocl-icd
 lib32-ocl-icd
 irqbalance
 x86_energy_perf_policy
 update-grub
 ntfs-3g
+hdparm
 
 # BigLinux Packages
   # visual
@@ -67,7 +62,7 @@ ntfs-3g
     big-mount-git
     biglinux-systemd-swap
     #disable-fsync  # REMOVER?
-    dbus-broker-enable
+    # # # dbus-broker-enable
     biglinux-neofetch
     power-profiles-daemon-biglinux
     auto-rules-io
@@ -75,7 +70,6 @@ ntfs-3g
     hunspell-pt-br
     uresourced
     bigsudo
-    big-snow
 
 ## Games
 # BigLinux
@@ -104,6 +98,7 @@ nvtop
 switcheroo-control
 xf86-input-synaptics
 xwaylandvideobridge
+alsa-oss
 
 ## Perdidos
 compsize
@@ -161,6 +156,8 @@ bluez-tools
 bluez-utils
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
+dhclient
+kldap
 
 ## Sound/Audio/Video
 # BigLinux
@@ -170,40 +167,37 @@ sshfs  # remote filesystem browser
 alsa-firmware
 sof-firmware
 alsa-utils
-ffmpeg
-ffmpeg4.4
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libdvdcss
-manjaro-pipewire
+gst-plugin-pipewire
+pipewire
+pipewire-alsa
+pipewire-pulse
 pipewire-jack
+pipewire-v4l2
+pipewire-zeroconf
+realtime-privileges
 wireplumber
 breeze-icons
 chmlib
+gnome-network-displays
 
 
 ## Fonts
-ttf-dejavu
 cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts-lite        # default font
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
->extra noto-fonts-emoji
-terminus-font
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+noto-fonts-emoji
 ttf-caladea
 ttf-carlito
 ttf-liberation
-ttf-roboto
 ttf-lato
-ttf-ubuntu-font-family
 
 ## Package management
 # BigLinux
@@ -218,7 +212,7 @@ ttf-ubuntu-font-family
 pamac-gtk
 pamac-cli
 >extra fwupd
-manjaro-application-utility
+# # # manjaro-application-utility
 
 #Better wine support
 lib32-pipewire
@@ -265,6 +259,8 @@ lib32-sdl12-compat
 lib32-v4l-utils
 sdl12-compat
 lib32-giflib
+vkd3d
+lib32-vkd3d
 
 # printers and Scanner
 bluez-cups
@@ -321,6 +317,8 @@ gnome-keyring
 appmenu-gtk-module
 xdg-utils
 libmspack
+ifuse
+smartmontools
 
 #udev
 usbasp-udev
@@ -357,6 +355,5 @@ make
 automake
 autoconf
 libtool
->extra python-pillow
 >extra python-pip
->extra python-pyqt5
+
