@@ -68,8 +68,6 @@ file
 filesystem
 findutils
 gawk
-gcc-libs
-gcc
 gettext
 glibc
 grep
@@ -99,21 +97,21 @@ hunspell-en_us
 qt5-translations
 vkd3d
 lib32-vkd3d
-vulkan-swrast
 ocl-icd
 lib32-ocl-icd
 irqbalance
 x86_energy_perf_policy
 update-grub
+ntfs-3g
 
 # BigLinux Packages
   # visual
     extra-biglinux-wallpapers
     biglinux-base-icons
     biglinux-apps-rename
-    
+
     biglinux-metapackage
-    
+
   # boot
     grub-theme-biglinux
     timeshift
@@ -151,9 +149,12 @@ libxvmc
 lib32-mesa-vdpau
 lib32-vulkan-intel
 lib32-vulkan-radeon
+lib32-vulkan-swrast
 mesa-vdpau
 vulkan-intel
 vulkan-radeon
+vulkan-tools
+vulkan-swrast
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
@@ -161,11 +162,14 @@ xf86-video-nouveau
 nvtop
 switcheroo-control
 xf86-input-synaptics
+xwaylandvideobridge
 
 ## Perdidos
 compsize
 uriparser
 thermald
+wl-clipboard
+wl-mirror
 
 ## Virtual Machines
 open-vm-tools
@@ -175,7 +179,7 @@ xf86-input-vmmouse
 ## Imported from live
 # BigLinux
   spice-vdagent-autostart-kde
-virtualbox-guest-utils
+  virtualbox-guest-utils
 
 ## Network
 # BigLinux
@@ -194,8 +198,6 @@ modemmanager
 openresolv
 openssh
 usb_modeswitch
-ufw
-gufw
 manjaro-settings-samba
 libdnet
 
@@ -211,7 +213,11 @@ gvfs-smb
 mtpfs
 udiskie
 udisks2
-bluez-plugins
+bluez
+bluez-hid2hci
+bluez-libs
+bluez-tools
+bluez-utils
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
 
@@ -220,6 +226,7 @@ sshfs  # remote filesystem browser
   pipewire-jack-dropin  # REMOVER ?
   biglinux-noise-reduction-pipewire
 alsa-firmware
+sof-firmware
 alsa-utils
 ffmpeg
 ffmpeg4.4
@@ -228,21 +235,18 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-libcanberra
-libcanberra-pulse
 libdvdcss
 manjaro-pipewire
 pipewire-jack
 wireplumber
 breeze-icons
-qpwgraph
 chmlib
+
 
 ## Fonts
 ttf-dejavu
 cantarell-fonts        # Installed as gnome-themes-standard dependency
-noto-fonts               # default font
-adobe-source-sans-pro-fonts
+noto-fonts-lite        # default font
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -256,7 +260,6 @@ ttf-caladea
 ttf-carlito
 ttf-liberation
 ttf-roboto
-ttf-liberation
 ttf-lato
 ttf-ubuntu-font-family
 
@@ -339,6 +342,7 @@ system-config-printer
 ## Optional dependencies for ark
 p7zip  # 7Z format support
 unarchiver  # RAR format support
+cabextract
 
 ## Applications
 dmidecode # for inxi -m output

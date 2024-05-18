@@ -15,12 +15,11 @@ xivastudio-mime
 ## BigLinux
 qbittorrent
 big-preload
-plasmashell-fix-git
 kfind
 kdialog
 pavucontrol-qt
 kscreen
-kcm-wacomtablet
+wacomtablet
 plasma-thunderbolt
 kio-gdrive
 mintstick
@@ -38,7 +37,7 @@ gtk3
 big-skel
 powerdevil
 biglinux-plasmoids
-packagekit-qt5
+# # # packagekit-qt5
 bigcontrolcenter
 rootactions-servicemenu-biglinux
 biglinux-session-and-themes
@@ -53,9 +52,10 @@ big-executable
 mx-idevice-mounter
 
 ## Network
+plasma-firewall
 
 ## Libraries for Sound/Audio/Video
-phonon-qt5-vlc
+# # # phonon-qt5-vlc
 
 ## Connect Packages
 kamera
@@ -67,7 +67,7 @@ pamac-tray-icon-plasma
 sddm
 sddm-kcm
 
-## Plasma5
+## Plasma
 bluedevil
 kde-gtk-config
 kdeplasma-addons
@@ -76,11 +76,10 @@ kinfocenter
 kmenuedit
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
-kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+qt6-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
 plasma-desktop
 plasma-nm
@@ -89,17 +88,19 @@ plasma-workspace
 systemsettings
 plasma-vault
 cryfs
-kwin-scripts-virtual-desktops-only-on-primary
+# # # kwin-scripts-virtual-desktops-only-on-primary
 guvcview
-kalarm
 kmines
 kpat
 ksystemlog
-kwin-window-positioning-scripts
-plasma5-applet-tiledmenu-git
-plasma5-applets-resources-monitor
-simplescreenrecorder
+# # # kwin-window-positioning-scripts
+plasma-applet-window-buttons
+plasma6-applets-panel-colorizer
+plasma6-applets-netspeed
+plasma6-applets-resources-monitor
+plasma6-applets-window-title
 kde-snap-assist
+plymouth-kcm
 
 ## KDE Applications
 ark
@@ -111,8 +112,6 @@ kfind
 kdeconnect
 okular
 kdenetwork-filesharing
-khotkeys
-kio-extras
 konsole
 kwalletmanager
 gwenview
@@ -120,7 +119,6 @@ gparted
 spectacle
 vlc
 plasma5-applets-window-buttons
-plasma-simplemenu
 kvantum
 
 ## Optional dependencies for dolphin
@@ -128,8 +126,8 @@ kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
 
 ## Optional dependencies for gwenview
-kimageformats5     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt6-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -141,11 +139,10 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 #manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
-systemd-kcm
 
 ## Flatpak support
-pamac-flatpak-plugin
-
+libpamac-flatpak-plugin
+flatpak-kcm  # ou flatseal
 ## Printing
 >extra manjaro-printer
 >extra gtk3-print-backends
