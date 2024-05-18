@@ -327,7 +327,7 @@ lib32-v4l-utils
 sdl12-compat
 lib32-giflib
 
-# printers
+# printers and Scanner
 bluez-cups
 cups
 manjaro-printer
@@ -341,6 +341,7 @@ sane-airscan
 ## Optional dependencies for print-manager
 python-pysmbc          # SMB browser support
 system-config-printer
+simple-scan
 
 ## Optional dependencies for ark
 p7zip  # 7Z format support
