@@ -129,6 +129,7 @@ hdparm
     hunspell-pt-br
     uresourced
     bigsudo
+    fprintd
 
 ## Games
 # BigLinux
@@ -195,6 +196,7 @@ openssh
 usb_modeswitch
 manjaro-settings-samba
 libdnet
+firewalld
 
 ## Connect
 android-tools
