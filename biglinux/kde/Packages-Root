@@ -90,7 +90,7 @@ aspell-pt
 pulseaudio-alsa  # REMOVER ?
 bash-completion
 hunspell-en_us
-qt5-translations
+# # # qt5-translations
 ocl-icd
 lib32-ocl-icd
 irqbalance
