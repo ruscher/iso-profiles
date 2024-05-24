@@ -131,7 +131,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 #manjaro-application-utility
-manjaro-settings-manager-kcm
+# # # manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 
 ## Flatpak support
