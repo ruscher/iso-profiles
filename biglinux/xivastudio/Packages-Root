@@ -118,7 +118,7 @@ hdparm
     biglinux-l18n
     faster-mkinitcpio
     biglinux-improve-compatibility
-    big-mount-git
+    big-mount
     biglinux-systemd-swap
     #disable-fsync  # REMOVER?
     # # # dbus-broker-enable
