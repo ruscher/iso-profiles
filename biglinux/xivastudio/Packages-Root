@@ -207,6 +207,10 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+gvfs-wsdd
+gvfs-onedrive
+gvfs-dnssd
+gvfs-google
 mtpfs
 udiskie
 udisks2
