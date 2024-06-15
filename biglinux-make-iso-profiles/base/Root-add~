@@ -98,6 +98,7 @@ xf86-video-nouveau
 nvtop
 switcheroo-control
 xf86-input-synaptics
+xwaylandvideobridge
 alsa-oss
 
 ## Perdidos
