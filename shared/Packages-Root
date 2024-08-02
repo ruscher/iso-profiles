@@ -21,6 +21,7 @@ efibootmgr
 exfatprogs
 f2fs-tools
 grub
+install-grub
 inetutils
 intel-ucode
 jfsutils
