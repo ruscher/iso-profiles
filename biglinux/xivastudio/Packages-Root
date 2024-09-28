@@ -133,6 +133,9 @@ hdparm
   retroarch-tweaks
   ds4-disable-led
 
+## accessibility
+orca
+
 ## Video and Driver Support
 # Biglinux
   mhwd-biglinux
@@ -160,7 +163,7 @@ alsa-oss
 compsize
 uriparser
 thermald
-wl-clipboard
+wl-clipboard-rs
 wl-mirror
 
 ## Virtual Machines
