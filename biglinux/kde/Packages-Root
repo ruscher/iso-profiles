@@ -137,6 +137,8 @@ hdparm
 
 ## accessibility
 orca
+espeak-ng
+espeakup
 
 ## Video and Driver Support
 # Biglinux

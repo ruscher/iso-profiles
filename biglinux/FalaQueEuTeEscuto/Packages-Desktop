@@ -1,0 +1,158 @@
+## BigLinux
+qbittorrent
+big-preload
+kfind
+kdialog
+pavucontrol-qt
+kscreen
+wacomtablet
+plasma-thunderbolt
+kio-gdrive
+mintstick
+filelight
+biglinux-config
+feh
+lutris
+open-in-lutris-git
+steam
+kde-service-menu-reimage
+kde-servicemenus-officeconverter
+mystiq
+rustdesk-bin
+kde-color-folder
+kdegraphics-mobipocket
+gtk3
+big-skel
+powerdevil
+biglinux-plasmoids
+# # # packagekit-qt5
+bigcontrolcenter
+rootactions-servicemenu-biglinux
+biglinux-session-and-themes
+biglinux-themes-gui
+sddm-theme-biglinux
+sddm-xorg-failsafe
+libreoffice-fresh
+libreoffice-fresh-pt-br
+brave-browser
+keditbookmarks
+plasma-appsmenu-biglinux
+big-executable
+
+## Network
+plasma-firewall
+
+## Libraries for Sound/Audio/Video
+# # # phonon-qt5-vlc
+
+## Connect Packages
+kamera
+
+## Package management
+pamac-tray-icon-plasma
+
+## Display manager
+sddm
+sddm-kcm
+
+## Plasma
+bluedevil
+kde-gtk-config
+kdeplasma-addons
+kgamma
+kinfocenter
+kmenuedit
+kscreenlocker
+ksshaskpass
+plasma-systemmonitor
+kwallet-pam
+kwayland-integration
+qt6-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+# # # kwrited
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-workspace
+systemsettings
+plasma-vault
+# # # kwin-scripts-virtual-desktops-only-on-primary
+guvcview
+kmines
+kpat
+ksystemlog
+# # # kwin-window-positioning-scripts
+plasma-applet-window-buttons
+plasma6-applets-panel-colorizer
+plasma6-applets-netspeed
+plasma6-applets-resources-monitor
+plasma6-applets-window-title
+plymouth-kcm
+
+## KDE Applications
+ark
+dolphin
+dolphin-plugins
+kate
+gnome-calculator
+kfind
+kdeconnect
+okular
+kdenetwork-filesharing
+konsole
+kwalletmanager
+gwenview
+gparted
+spectacle
+vlc
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+
+## Optional dependencies for gwenview
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt6-imageformats  # support for tiff, webp, and more image formats
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+
+## Applications
+#manjaro-application-utility
+# # # manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+
+## Flatpak support
+libpamac-flatpak-plugin
+flatpak-kcm  # ou flatseal
+## Printing
+>extra manjaro-printer
+>extra gtk3-print-backends
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+#>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+#libva-vdpau-driver
+mesa-utils
+>multilib lib32-mesa-utils
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+xorg-mkfontscale
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+
+
+## Misc
+>basic squashfs-tools
