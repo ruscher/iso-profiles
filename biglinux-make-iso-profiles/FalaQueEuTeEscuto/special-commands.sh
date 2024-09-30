@@ -9,4 +9,5 @@ grep -v -f biglinux-make-iso-profiles/FalaQueEuTeEscuto/Desktop-remove  biglinux
 rm biglinux/FalaQueEuTeEscuto/Packages-Desktop-prov
 
 mkdir -p biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/
-cp biglinux-make-iso-profiles/FalaQueEuTeEscuto/kaccessrc biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/kaccessrc
+cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/kaccessrc" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/kaccessrc"
+cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/user-settings.conf" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.local/share/orca/user-settings.conf"
