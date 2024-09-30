@@ -8,5 +8,5 @@ mv biglinux/FalaQueEuTeEscuto/Packages-Desktop biglinux/FalaQueEuTeEscuto/Packag
 grep -v -f biglinux-make-iso-profiles/FalaQueEuTeEscuto/Desktop-remove  biglinux/FalaQueEuTeEscuto/Packages-Desktop-prov  >  biglinux/FalaQueEuTeEscuto/Packages-Desktop
 rm biglinux/FalaQueEuTeEscuto/Packages-Desktop-prov
 
-
+mkdir -p biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/
 cp biglinux-make-iso-profiles/FalaQueEuTeEscuto/kaccessrc biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/kaccessrc
