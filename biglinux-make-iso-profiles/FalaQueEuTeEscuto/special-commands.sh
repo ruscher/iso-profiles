@@ -8,6 +8,8 @@ mv biglinux/FalaQueEuTeEscuto/Packages-Desktop biglinux/FalaQueEuTeEscuto/Packag
 grep -v -f biglinux-make-iso-profiles/FalaQueEuTeEscuto/Desktop-remove  biglinux/FalaQueEuTeEscuto/Packages-Desktop-prov  >  biglinux/FalaQueEuTeEscuto/Packages-Desktop
 rm biglinux/FalaQueEuTeEscuto/Packages-Desktop-prov
 
-mkdir -p biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/
-cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/kaccessrc" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/kaccessrc"
-cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/user-settings.conf" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.local/share/orca/user-settings.conf"
+# # movidos para pacote falaqueeuteescuto
+# mkdir -p biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/
+# cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/kaccessrc" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.config/kaccessrc"
+# mkdir -p biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.local/share/orca/
+# cp "biglinux-make-iso-profiles/FalaQueEuTeEscuto/files/user-settings.conf" "biglinux/FalaQueEuTeEscuto/root-overlay/etc/skel/.local/share/orca/user-settings.conf"
