@@ -5,4 +5,3 @@
 #
 
 QT_LOGGING_RULES='*=false'
-QSG_RENDER_LOOP=basic
