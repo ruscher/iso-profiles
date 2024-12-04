@@ -176,6 +176,7 @@ kldap
   biglinux-noise-reduction-pipewire
 alsa-firmware
 sof-firmware
+linux-firmware
 alsa-utils
 gst-libav
 gst-plugins-bad
