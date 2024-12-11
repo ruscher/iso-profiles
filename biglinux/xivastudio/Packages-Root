@@ -27,6 +27,8 @@ intel-ucode
 jfsutils
 KERNEL
 less
+wireless-regdb
+linux-firmware
 logrotate
 lvm2
 manjaro-release
@@ -359,6 +361,7 @@ powertop
 # BigLinux
   auto-tweaks-browser
   sync-kde-and-gtk-places
+  pipewire-biglinux-config
   biglinux-webapps
   bigbashview
   biglinux-bash-config
