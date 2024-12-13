@@ -23,6 +23,8 @@ sed -i '/password=/s/password=.*/password="xivastudio"/' biglinux/xivastudio/pro
 
 # sed -i '//s///' biglinux/xivastudio/
 
+sed -i '/pipewire-biglinux-config/d' biglinux/xivastudio/Packages-Root
+
 #add biglinux standed desktop to xivastudio desktop
 cat biglinux/kde/Packages-Desktop  >>  biglinux/xivastudio/Packages-Desktop
 
