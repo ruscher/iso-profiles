@@ -3,4 +3,3 @@ libva-mesa
 KERNEL-zfs
 zfs-utils
 zfs-dkms
-xf86-video-fbdev
