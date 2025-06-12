@@ -1,21 +1,44 @@
+kwin-scripts-virtual-desktops-only-on-primary
+guvcview
+kalarm
+kmines
+kpat
+ksystemlog
+kwin-window-positioning-scripts
+plasma5-applet-tiledmenu-git
+plasma5-applets-resources-monitor
+simplescreenrecorder
+kde-snap-assist
+flisol-wallpaper
 
 ## BigLinux
+gamemode
+lib32-gamemode
 qbittorrent
 big-preload
+plasmashell-fix-git
 kfind
+#hardinfo
 kdialog
 pavucontrol-qt
 kscreen
-wacomtablet
+kcm-wacomtablet
 plasma-thunderbolt
 kio-gdrive
 mintstick
+#qt6-base
+#plasma-firewall
 filelight
+skanpage
 biglinux-config
 feh
 lutris
 open-in-lutris-git
+#grub-disable-zstd-in-legacy
+biglinux-changes-to-plasma-git
 steam
+python-steam
+#linux-steam-integration
 kde-service-menu-reimage
 kde-servicemenus-officeconverter
 mystiq
@@ -26,8 +49,11 @@ gtk3
 big-skel
 powerdevil
 biglinux-plasmoids
-# # # packagekit-qt5
+packagekit-qt5
+
+
 bigcontrolcenter
+plasmamenufork
 rootactions-servicemenu-biglinux
 biglinux-session-and-themes
 biglinux-themes-gui
@@ -35,19 +61,31 @@ sddm-theme-biglinux
 sddm-xorg-failsafe
 libreoffice-fresh
 libreoffice-fresh-pt-br
+#onlyoffice-desktopeditors
+#firefox
 brave-browser
+#firefox-i18n-pt-br
+#gimp-plugin-gmic
+#gimp
+#xsettingsd
 keditbookmarks
 plasma-appsmenu-biglinux
 big-executable
+mx-idevice-mounter
 
 ## Network
-plasma-firewall
+#samba
+#ananicy-config-biglinux
 
 ## Libraries for Sound/Audio/Video
-# # # phonon-qt5-vlc
+phonon-qt5-gstreamer
+#pulseaudio-bluetooth
+#pulseaudio-ctl
+#pulseaudio-zeroconf
 
 ## Connect Packages
 kamera
+
 
 ## Package management
 pamac-tray-icon-plasma
@@ -56,55 +94,65 @@ pamac-tray-icon-plasma
 sddm
 sddm-kcm
 
-## Plasma
+## Plasma5
 bluedevil
 kde-gtk-config
 kdeplasma-addons
-kgamma
+kgamma5
 kinfocenter
 kmenuedit
 kscreenlocker
 ksshaskpass
-plasma-systemmonitor
+ksysguard
 kwallet-pam
 kwayland-integration
-qt6-virtualkeyboard  # Virtual keyboard support for kwin-wayland
-# # # kwrited
+kwin
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+kwrited
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
 systemsettings
 plasma-vault
-# # # kwin-scripts-virtual-desktops-only-on-primary
-guvcview
-kmines
-kpat
-ksystemlog
-# # # kwin-window-positioning-scripts
-plasma-applet-window-buttons
-plasma6-applets-panel-colorizer
-plasma6-applets-netspeed
-plasma6-applets-resources-monitor
-plasma6-applets-window-title
-plymouth-kcm
+cryfs
+
+## Themes QT/GTK/SDDM
+#sddm-breath-theme
+#illyria-wallpaper
 
 ## KDE Applications
 ark
+#>extra digikam
+#clementine
 dolphin
 dolphin-plugins
+#>extra filelight
 kate
 gnome-calculator
 kfind
 kdeconnect
 okular
 kdenetwork-filesharing
+khotkeys
+kio-extras
 konsole
 kwalletmanager
 gwenview
 gparted
+#>extra print-manager
 spectacle
-vlc
+#smplayer
+#smplayer-themes
+vlc-luajit
+plasma5-applets-window-buttons
+plasma-simplemenu
+kvantum-qt5
+
+
+## Optional dependency for digikam
+#>extra kipi-plugins  # export to various online services
+#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -112,7 +160,7 @@ ffmpegthumbs              # video thumbnails
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
-qt6-imageformats  # support for tiff, webp, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -122,37 +170,12 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 #manjaro-application-utility
-# # # manjaro-settings-manager-kcm
+manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
+systemd-kcm
+
 
 ## Flatpak support
-libpamac-flatpak-plugin
-flatpak-kcm  # ou flatseal
-## Printing
->extra manjaro-printer
->extra gtk3-print-backends
+xdg-desktop-portal-kde
+pamac-flatpak-plugin
 
-## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
-libva-intel-driver
-libva-mesa-driver
-mesa-utils
->multilib lib32-mesa-utils
-numlockx
-xdg-user-dirs
-xorg-server
-xorg-twm
-xorg-xinit
-xorg-xkill
-xorg-mkfontscale
-
-## Xorg Input Drivers
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-
-
-## Misc
->basic squashfs-tools
-flisol-wallpaper
