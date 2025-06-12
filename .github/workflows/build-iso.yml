@@ -21,10 +21,10 @@ jobs:
       - name: Build ISO with mkarchiso
         run: |
           mkdir -p ./work ./out
-          mkarchiso -v -w ./work -o ./out ./iso-profiles/ruscher/  # Substitua "your-profile-name"
+          mkarchiso -v -w ./work -o ./out ./iso-profiles/ruscher/  # Substitua pelo seu perfil
 
-      - name: Upload ISO artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload ISO artifact (v4)
+        uses: actions/upload-artifact@v4
         with:
           name: generated-iso
           path: ./out/*.iso
