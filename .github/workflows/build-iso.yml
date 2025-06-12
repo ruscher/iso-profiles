@@ -13,22 +13,25 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          path: 'src'
 
       - name: Install dependencies
         run: |
-          pacman -Sy --noconfirm archiso git
+          pacman -Sy --noconfirm archiso
+
+      - name: Verify structure
+        run: |
+          echo "Estrutura do repositório:"
+          ls -lR src/
+          echo "Procurando por perfis..."
+          find src/ -type d -name "usr"
 
       - name: Build ISO
         run: |
-          # Criar diretórios de trabalho
           mkdir -p ./work ./out
-
-          # Verificar perfis disponíveis
-          echo "Perfis disponíveis em usr/:"
-          ls -l usr/
-
-          # Construir ISO (substitua 'releng' pelo perfil desejado)
-          mkarchiso -v -w ./work -o ./out ./usr/releng/
+          # Substitua pelo caminho CORRETO onde estão seus perfis
+          mkarchiso -v -w ./work -o ./out ./src/usr/releng/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
