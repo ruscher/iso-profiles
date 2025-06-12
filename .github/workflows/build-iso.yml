@@ -1,0 +1,30 @@
+name: Build ISO
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-iso:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies (archiso)
+        run: |
+          pacman -Sy --noconfirm archiso
+
+      - name: Build ISO with mkarchiso
+        run: |
+          mkdir -p ./work ./out
+          mkarchiso -v -w ./work -o ./out ./iso-profiles/ruscher/  # Substitua "your-profile-name"
+
+      - name: Upload ISO artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-iso
+          path: ./out/*.iso
