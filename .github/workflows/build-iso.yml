@@ -14,17 +14,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies (archiso)
+      - name: Install dependencies
         run: |
-          pacman -Sy --noconfirm archiso
+          pacman -Sy --noconfirm archiso git
 
       - name: Build ISO
         run: |
+          # Criar diretórios de trabalho
           mkdir -p ./work ./out
-          mkarchiso -v -w ./work -o ./out ./usr/biglinux/
 
-      - name: Upload ISO artifact
+          # Verificar perfis disponíveis
+          echo "Perfis disponíveis em usr/:"
+          ls -l usr/
+
+          # Construir ISO (substitua 'releng' pelo perfil desejado)
+          mkarchiso -v -w ./work -o ./out ./usr/releng/
+
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: generated-iso
+          name: custom-iso
           path: ./out/*.iso
