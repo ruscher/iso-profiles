@@ -46,7 +46,7 @@ hdparm
     extra-biglinux-wallpapers
     biglinux-base-icons
     biglinux-apps-rename
-
+    biglinux-welcome
     biglinux-metapackage
 
   # boot
